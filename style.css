@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border;
+   
+}
+.portfolio-container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    
+
+}
+.navlist{
+    display: flex;
+    gap: 3.5rem;
+    height: 15vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    font-family: Arial;
+    
+
+
+}
+.navlist li{
+    list-style: none;
+    font-family:Arial;
+}
+.navlist li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font: 1rem;
+    color: #fff;
+    font-family:Arial;
+}
+.left-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background:skyblue;
+    width: 70%;
+    padding-left: 3rem;
+}
+.right-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background:linear-gradient(-45deg,#3877ff,#262525 70%);
+    width: 30%;
+
+}
+.icons .fa-brands{
+    color:black;
+    font-size: 1.7rem;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    
+
+}
+.content{
+    margin-left: 2rem;
+    font-family: Arial;
+}
+.content .intro{
+    font-size: 4rem;
+    color: #fff;
+    font-family: Arial;
+
+}
+.content .intro span{
+    color:olive;
+    font-family:Arial;
+}
+.content .detail2 span{
+    color: olive;
+    font-size: 2rem;
+    max-width: 38rem;
+    margin: 1.1rem 0 3rem 0;
+    line-height: 1.8rem;
+    font-family:Arial;
+    
+}
+.content h2{
+    font-size: 1.5rem;
+    color: olive;
+    font-family:Arial;
+}
+.content .detail{
+    font-size: 1.1rem;
+    color: #fff;
+    max-width: 38rem;
+    margin: 1.1rem 0 3rem 0;
+    line-height: 1.8rem;
+    font-family:Arial;
+}
+.content .detail3{
+    font-size: 1rem;
+    color: #fff;
+    max-width: 38rem;
+    margin: 1.1rem 0 3rem 0;
+    line-height: 1.8rem;
+    font-family:Arial;
+}
+
+.icons .fa-brands:hover{
+    cursor: pointer;
+    background: linear-gradient(white);
+   
+}
+.content .detail4 span{
+    color:olive;
+    font-size: 2rem;
+    max-width: 38rem;
+    margin: 1.1rem 0 3rem 0;
+    line-height: 1.8rem;
+    font-family:Arial;
+}
+.content .detail5{
+    font-size: 1.1rem;
+    color: #fff;
+    max-width: 38rem;
+    margin: 1.1rem 0 3rem 0;
+    line-height: 1.8rem;
+    font-family:Arial;
+}
+    
+
+
